@@ -22,22 +22,22 @@ const Navbar = () => {
         <ul className="hidden sm:flex">
           <li className="p-4">
             <Link href="/">
-              <span className="hover:text-pink-600">about me</span>
+              <span className="hover:text-yellow-300">about me</span>
             </Link>
           </li>
           <li className="p-4">
             <Link href="/resume">
-              <span className="hover:text-pink-600">resume</span>
+              <span className="hover:text-yellow-300">resume</span>
             </Link>
           </li>
           <li className="p-4">
             <Link href="/projects">
-              <span className="hover:text-pink-600">projects</span>
+              <span className="hover:text-yellow-300">projects</span>
             </Link>
           </li>
           <li className="p-4">
             <Link href="/contact">
-              <span className="hover:text-pink-600">contact me</span>
+              <span className="hover:text-yellow-300">contact me</span>
             </Link>
           </li>
         </ul>
