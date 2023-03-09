@@ -13,7 +13,7 @@ const formStyle = {
 };
 
 export default function Contact() {
-  const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORTUNA_CONTACT_FORM);
+  const [state, handleSubmit] = useForm("xayzojrn");
 
   if (state.succeeded) {
     return (
