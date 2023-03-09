@@ -2,11 +2,13 @@
   "name": "san-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://<username>.github.io/<repository-name>/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && npx gh-pages -d out"
   },
   "dependencies": {
     "@formspree/react": "^2.4.1",
