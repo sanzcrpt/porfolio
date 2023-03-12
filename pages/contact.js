@@ -30,7 +30,7 @@ export default function Contact() {
       </Head>
       <h1 className="text-3xl font-bold text-center mb-8">Contact Me</h1>
       <form style={formStyle} onSubmit={handleSubmit}>
-        <h2 className="text-2xl font-bold mb-8">Send us a message</h2>
+        <h2 className="text-2xl font-bold mb-8">Send me a message</h2>
         <label htmlFor="name" className="block mb-2 font-medium">
           Name:
         </label>
