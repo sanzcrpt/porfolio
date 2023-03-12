@@ -46,7 +46,7 @@ const Resume = () => {
               </li>
             </ul>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/3">
             <h2 className="text-2xl font-bold mb-2">Fellowships &amp; Programs</h2>
             <ul>
               <li className="mb-8">
