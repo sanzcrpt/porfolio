@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 const Hero = ({heading, message, mission, meetthefounder, about}) => {
   return (
-    <div className="container mx-auto py-32 px-4">
+    <div className="container mx-auto py-48 px-4">
       <div className="flex flex-col justify-center items-center h-screen">
       <div className="flex items-center justify-center mb-6">
         <div className="relative w-60 h-60 rounded-full overflow-hidden border border-yellow-400 ">
-          <Image src="/reddit.png" alt="Shantel Xin, The Founder" layout="fill" objectFit="cover" />
+          <Image src="/reddit.png" alt="San Robinson" layout="fill" objectFit="cover" />
         </div>
       </div>
         <h1 className="text-4xl mt-18 font-bold mb-4">About Me</h1>
