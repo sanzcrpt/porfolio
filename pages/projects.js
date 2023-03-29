@@ -2,7 +2,7 @@ import InfoCard from '../components/InfoCard';
 
 const projects = [
     {
-        title: 'Fortua Lookbook',
+        title: 'Fortuna Lookbook',
         description: 'Created a Web Application for Fortuna funding to connect entrepreneurs with female-focused funding opportunities',
         Url: 'https://fortunalookbook.vercel.app/',
         imageAlt: 'Github',
@@ -24,7 +24,7 @@ const projects = [
         techstack: 'SwiftUI & Firebase'
       },
       {
-        title: 'Globalzens Studios',
+        title: 'Globalzen Studios',
         description: 'Roadmapped may mental health month event and created the website for the event.',
         Url: 'https://globalzenstudios.com/',
         imageAlt: 'Github',
