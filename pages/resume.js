@@ -27,7 +27,7 @@ const Resume = () => {
                 <Image src="/github.png" alt="Fortuna Funding & W.A.E Logo" width={50} height={50} className="mr-4" />
                 <div>
                   <h3 className="font-bold">Fortuna Funding &amp; W.A.E</h3>
-                  <p>Project Manager &amp; Engineer</p>
+                  <p>Technology & Research Consultant</p>
                 </div>
               </li>
               <li className="mb-8 flex items-center">

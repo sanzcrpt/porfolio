@@ -1,19 +1,19 @@
 import InfoCard from '../components/InfoCard';
 
-const fundingTypes = [
+const projects = [
     {
         title: 'Fortua Lookbook',
         description: 'Created a Web Application for Fortuna funding to connect entrepreneurs with female-focused funding opportunities',
-        Url: '/images/venture-capital.jpg',
-        imageAlt: 'Fortua Lookbook Website',
+        Url: 'https://fortunalookbook.vercel.app/',
+        imageAlt: 'Github',
         techstack: 'Next.js, Tailwind, Formspree'
 
       },
       {
         title: 'Toys to Friends',
         description: "Developed a web application for a toy exchange program that aims to reduce plastic waste in the oceans while providing new toys for childre",
-        Url: '/images/angel-investing.jpg',
-        imageAlt: 'Gitbub',
+        Url: 'https://github.com/saanish3/Toys-To-Friends',
+        imageAlt: 'Github',
         techstack: 'React, Tailwind, Firebase'
       },
       {
@@ -26,9 +26,24 @@ const fundingTypes = [
       {
         title: 'Globalzens Studios',
         description: 'Roadmapped may mental health month event and created the website for the event.',
-        Url: '/images/debt-financing.jpg',
-        imageAlt: 'Globalzens Studios Website',
+        Url: 'https://globalzenstudios.com/',
+        imageAlt: 'Github',
         techstack: 'Next.js, Tailwind, Firebase, Formspree'
+      }
+      ,
+      {
+        title: 'InspoBoard',
+        description: 'Developed web application that generates user-friendly, customizable display of message cards.',
+        Url: 'https://github.com/saanish3/front-end-inspiration-board',
+        imageAlt: 'Github',
+        techstack: 'Javascript & Python'
+      },
+      {
+        title: 'Solar System API',
+        description: ' Created a Solar System API to display understanding of RESTful API and SQL.',
+        Url: 'https://github.com/saanish3/Solar---Sytem-API',
+        imageAlt: 'Github',
+        techstack: 'Python & SQL'
       }
     ];
 
@@ -39,7 +54,7 @@ const Resources = () => {
       <p className="mt-4 max-w-2xl text-center text-xl text-gray-500 lg:mx-auto">
 Click the image to see some of the projects I have!      </p>
       <div className="mt-10 grid gap-10 md:grid-cols-2 xl:grid-cols-4">
-        {fundingTypes.map((type) => (
+        {projects.map((type) => (
           <InfoCard key={type.title} title={type.title} techstack={type.techstack} description={type.description} Url={type.Url} imageAlt={type.imageAlt} />
         ))}
       </div>
