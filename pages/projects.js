@@ -52,7 +52,7 @@ const Resources = () => {
     <div className="max-w-6xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl text-center font-extrabold mt-6  text-gray-900">Projects</h1>
       <p className="mt-4 max-w-2xl text-center text-xl text-gray-500 lg:mx-auto">
-Click the image to see some of the projects I have!      </p>
+Some cool things I have worked on!      </p>
       <div className="mt-10 grid gap-10 md:grid-cols-2 xl:grid-cols-4">
         {projects.map((type) => (
           <InfoCard key={type.title} title={type.title} techstack={type.techstack} description={type.description} Url={type.Url} imageAlt={type.imageAlt} />
