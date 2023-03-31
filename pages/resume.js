@@ -19,14 +19,14 @@ const Resume = () => {
                 <Image src="/github.png" alt="We Are Enough Logo" width={50} height={50} className="mr-4" />
                 <div>
                   <h3 className="font-bold"><a href="https://www.weareenough.biz/">We Are Enough</a></h3>
-                  <p className="text-gray-400 text-sm mb-1">Technology Consultant - Product Management</p>
+                  <p className="text-gray-400 text-sm mb-1">Technology Consultant - Product Manager</p>
                 </div>
               </li>
               <li className="mb-8 flex items-center">
                 <Image src="/github.png" alt="Fortuna Funding & W.A.E Logo" width={50} height={50} className="mr-4" />
                 <div>
                   <h3 className="font-bold"><a href="https://fortunalookbook.vercel.app/">Fortuna Funding</a></h3>
-                  <p className="text-gray-400 text-sm mb-1">Technology and Research Consultant</p>
+                  <p className="text-gray-400 text-sm mb-1">Technology and Research Consultant - Product</p>
                 </div>
               </li>
               <li className="mb-8 flex items-center">
@@ -41,6 +41,8 @@ const Resume = () => {
                 <div>
                   <h3 className="font-bold"><a href="https://www.crowdstrike.com/">CrowdStrike</a></h3>
                   <p className="text-gray-400 text-sm mb-1">Software Engineer Intern - Mobile UI</p>
+                  <p className="text-gray-400 text-sm mb-1">Major Initative Lead</p>
+
                 </div>
               </li>
             </ul>
