@@ -28,7 +28,7 @@ const Resume = () => {
                 <Image src="/github.png" alt="Fortuna Funding & W.A.E Logo" width={50} height={50} className="mr-4" />
                 <div>
                   <h3 className="font-bold"><a href="https://fortunalookbook.vercel.app/">Fortuna Funding</a></h3>
-                  <p className="text-gray-400 text-sm mb-1">UX/UI Software Engineer - Last position</p>
+                  <p className="text-gray-400 text-sm mb-1">UX/UI Software Engineer</p>
                   <p className="text-gray-400 text-sm mb-1">Researcher</p>
 
                 </div>
